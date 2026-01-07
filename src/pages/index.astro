@@ -1,0 +1,33 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Footer from '../components/Footer.astro';
+import Header from '../components/Header.astro';
+import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+	</head>
+	<body>
+		<Header />
+		<main>
+			<h1>🧑‍🚀 Hello, Everyone!</h1>
+			<p>
+				<img src="src/assets/img/2024/01.jpg" /
+			</p>
+			<p>
+        这是我和老师第一次合作的作品
+      </p>
+      <p>
+        万事开头难，既然选择了远方，只能一往无前。。。
+      </p>
+			<p>
+				欢迎来到 Melody 的博客，这个平台主要是一些绘画心得，或者是一些我比较喜欢的一些分享，希望大家都能从中受益。
+			</p>
+
+		</main>
+		<Footer />
+	</body>
+</html>
