@@ -1,4 +1,6 @@
 ---
+import { Image } from 'astro:assets';
+import img202401 from '../assets/img/2024/01.jpg';
 import BaseHead from '../components/BaseHead.astro';
 import Footer from '../components/Footer.astro';
 import Header from '../components/Header.astro';
@@ -15,13 +17,13 @@ import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
 		<main>
 			<h1>🧑‍🚀 Hello, Everyone!</h1>
 			<p>
-				<img src="../assets/img/2024/01.jpg" /
+        万事开头难，既然选择了远方，只能一往无前。。。
+      </p>
+			<p class="text-center">
+				<Image width={200} src={img202401} alt="老师合作" />
 			</p>
 			<p>
         这是我和老师第一次合作的作品
-      </p>
-      <p>
-        万事开头难，既然选择了远方，只能一往无前。。。
       </p>
 			<p>
 				欢迎来到 Melody 的博客，这个平台主要是一些绘画心得，或者是一些我比较喜欢的一些分享，希望大家都能从中受益。
